@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+	<title>Zadání - 03</title>
+
+<meta charset="utf-8">
+
+<script src="../jquery-2.0.0.js"></script>
+
+
+<style type="text/css">
+ul > li:hover {
+	cursor: pointer;
+	color: red;
+}
+
+.square {
+	list-style-type: square;
+}
+
+.number {
+	list-style-type: decimal;
+
+}
+
+.circle {
+	list-style-type: initial;
+}
+
+.letter {
+	list-style-type: upper-alpha;
+}
+
+</style>
+
+<script>
+	$(document).ready(function() {
+		$("ul > li").click(function (event) {
+			$(this).closest('li').find('ul').not(this).toggle();
+
+		});
+	});
+	
+</script>
+
+</head>
+<body>
+<ul class="square">
+	<li>Pohádka O perníkové chaloupce
+		<ul class="number">
+			<li>Mařenka</li>
+			<li>Jeníček</li>
+			<li>ježibaba</li>
+		</ul>
+	</li>
+	<li>Pohádka O Červené Karkulce
+		<ul class="number">
+			<li>Karkulka
+				<ul class="circle">
+					<li>červený čepeček</li>
+					<li>košík</li>
+				</ul>
+			</li>
+			<li>vlk
+				<ul class="circle">
+					<li>ostré zuby</li>
+					<li>hlad</li>
+				</ul>
+			</li>
+			<li>babička
+				<ul class="circle">
+					<li>sežraná</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+
+	<li>Pohádka O Šípkové Růžence
+		<ul class="letter">
+			<li>sudičky
+				<ul>
+					<li class="number">Miroslava
+						<ul>
+							<li>pozvaná</li>
+							<li>daruje krásu</li>
+						</ul>
+					</li>
+					<li>Květoslava
+						<ul>
+							<li>pozvaná</li>
+							<li>daruje prince</li>
+						</ul>
+					</li>
+					<li>Věnceslava
+						<ul>
+							<li>nepozvaná</li>
+							<li>daruje spánek</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>Růženka
+				<ul>
+					<li>nesmí do věže</li>
+					<li>píchne se o trn</li>
+					<li>princ</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+
+</ul>
+
+</body>
+</html>

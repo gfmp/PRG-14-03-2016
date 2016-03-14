@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+	<title>Zadání - 01</title>
+
+<meta charset="utf-8">
+
+
+<style type="text/css">
+
+body {
+	width: 960px;
+	margin: 0 auto;
+	color: white;
+}
+
+header {
+	background: gray;
+	height: 150px;
+
+}
+
+nav {
+	background: pink;
+	height: 50px;
+	margin-top: 10px;
+}
+
+.sidebar {
+	width: 160px;
+	height: 500px;
+	background: darkgreen;
+	float: left;
+	clear: right;
+	margin-top: 10px;
+}
+
+.content {
+	width: 790px;
+	float: left;
+	background: green;
+	clear: right;
+	height: 500px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+article {
+	background: blue;
+	height: 180px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+footer {
+	background: orange;
+	height: 50px;
+	margin-top: 520px;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.align-middle {
+	vertical-align: middle;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+</style>
+
+</head>
+<body>
+
+
+<header class="align-middle">
+	<h1>Header</h1>
+</header>
+
+<nav class="align-middle">
+	<h1>Navigation</h1>
+</nav>
+
+<div class="sidebar align-middle">
+	<h1>Sidebar</h1>
+</div>
+
+<div class="content">
+	<h1>Main content</h1>
+	<article class="align-middle"><h1>Article</h1></article>
+	<article class="align-middle"><h1>Article</h1></article>
+</div>
+
+<footer class="align-middle">
+	<h1>Footer</h1>
+</footer>
+
+</body>
+</html>

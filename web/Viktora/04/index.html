@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+	<title>Zadání - 04</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<style type="text/css">
+
+
+* {
+	margin: 0px;
+	color: white;
+	font-family: Arial;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 0px;
+}
+
+body {
+	background-image: url("bg.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+nav {
+	height: auto;
+	padding: 10px;
+	background: rgba(0, 0, 0, 0.8);
+	overflow: hidden;
+}
+
+h1 {
+	font-size: 2.5em;
+	padding: 10px;
+	float: left;
+}
+
+.container-buttons {
+	text-align: right;
+	margin: 25px;
+}
+
+@media screen and (max-width: 1023px) {
+	h1 {width: 100%; float: left;}
+ 	.container-buttons {float: left; padding: 0px; margin: 5px;}
+ 	nav {width: 100%;}
+}
+
+
+.button {
+	border: 1px solid white;
+	padding: 10px;
+	margin: 4px;
+	font-size: 1.2em;
+}
+
+a {
+	text-decoration: none;
+  	-webkit-transition: background 0.3s, color 0.3s; /* Safari */
+  	transition: background 0.3s, color 0.3s;
+}
+
+a:hover {
+	background: white;
+	color: black;
+}
+
+#article {
+	background: rgba(0, 0, 0, 0.5);
+	border: 4px double white;
+	height: auto;
+	width: 240px;
+	margin: 50px;
+	padding: 35px 15px 35px 15px;
+}
+
+@media screen and (max-width: 479px) {
+	#article {
+			width: 100%; 
+			border: 0; 
+			margin: 0px; 
+			margin-top: 10px; 
+			padding: 10px}
+}
+
+.align-middle {
+	vertical-align: middle;
+	/*display: flex;*/
+	/*align-items: center;*/
+	/*justify-content: center;*/
+}
+
+</style>
+
+</head>
+<body>
+
+<nav class="">
+	<h1>Light Bulb</h1>
+	<div class="container-buttons">
+		<a href="http://bit.ly/1yq1Ifm" class="button">Original</a>
+		<a href="http://artlibre.org/licence/lal/en/" class="button">Licence</a>
+	</div>
+</nav>
+
+<div id="article">
+	<p>Stefan Krause, Germany</p>
+	<br>
+	<p>
+	High-speed photography: A light bulb was shot with an airsoft pistol (positioned right of the lamp). The camera was triggered by a photocell, which was located in front of the pistol muzzle. Because of the low energy of the projectile, the bulb burst and only few fragments were swept away. This gives the impression that the bulb is exploding.
+	</p>
+</div>
+
+
+</body>
+</html>

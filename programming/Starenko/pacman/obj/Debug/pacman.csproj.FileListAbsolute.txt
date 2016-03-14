@@ -1,0 +1,12 @@
+c:\users\cihak\documents\visual studio 2013\Projects\pacman\pacman\bin\Debug\pacman.exe.config
+c:\users\cihak\documents\visual studio 2013\Projects\pacman\pacman\bin\Debug\pacman.exe
+c:\users\cihak\documents\visual studio 2013\Projects\pacman\pacman\bin\Debug\pacman.pdb
+c:\users\cihak\documents\visual studio 2013\Projects\pacman\pacman\obj\Debug\pacman.csprojResolveAssemblyReference.cache
+c:\users\cihak\documents\visual studio 2013\Projects\pacman\pacman\obj\Debug\pacman.exe
+c:\users\cihak\documents\visual studio 2013\Projects\pacman\pacman\obj\Debug\pacman.pdb
+C:\Users\cihak\Desktop\pacman\pacman\bin\Debug\pacman.exe.config
+C:\Users\cihak\Desktop\pacman\pacman\obj\Debug\pacman.exe
+C:\Users\cihak\Desktop\pacman\pacman\obj\Debug\pacman.pdb
+F:\prg\Ondřej Starenko\pacman\pacman\bin\Debug\pacman.exe.config
+F:\prg\Ondřej Starenko\pacman\pacman\obj\Debug\pacman.exe
+F:\prg\Ondřej Starenko\pacman\pacman\obj\Debug\pacman.pdb

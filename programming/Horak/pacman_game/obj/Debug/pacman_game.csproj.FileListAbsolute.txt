@@ -1,0 +1,6 @@
+C:\Users\Horak\Desktop\pacman\pacman_game\pacman_game\bin\Debug\pacman_game.exe.config
+C:\Users\Horak\Desktop\pacman\pacman_game\pacman_game\bin\Debug\pacman_game.exe
+C:\Users\Horak\Desktop\pacman\pacman_game\pacman_game\bin\Debug\pacman_game.pdb
+C:\Users\Horak\Desktop\pacman\pacman_game\pacman_game\obj\Debug\pacman_game.csprojResolveAssemblyReference.cache
+C:\Users\Horak\Desktop\pacman\pacman_game\pacman_game\obj\Debug\pacman_game.exe
+C:\Users\Horak\Desktop\pacman\pacman_game\pacman_game\obj\Debug\pacman_game.pdb

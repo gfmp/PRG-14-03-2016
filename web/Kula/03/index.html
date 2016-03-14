@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NumberThree</title>
+	<meta charset="UTF-8">
+  <style>
+ul.pomlcka {
+  list-style-type: none;
+}
+ul.pomlcka > li {
+  text-indent: -5px;
+}
+ul.pomlcka > li:before {
+  content: "- ";
+  text-indent: -5px;
+}
+  </style>
+</head>
+<body>
+
+<!-- list-style-type:disc	
+list-style-type:circle	
+list-style-type:square	
+list-style-type:none -->
+
+<!-- type="1"	The list items will be numbered with numbers (default)
+type="A"	The list items will be numbered with uppercase letters
+type="a"	The list items will be numbered with lowercase letters
+type="I"	The list items will be numbered with uppercase roman numbers
+type="i"	The list items will be numbered with lowercase roman numbers -->
+
+<ul style="list-style-type:square">
+  <li>Pohádka O perníkové chaloupce</li>
+  	<ol type="1">
+  		<li>Mařenka</li>
+  		<li>Jeníček</li>
+  		<li>Ježibaba</li>
+  	</ol>
+  <li>Pohádka O Čevené Karkulce</li>
+  	<ol type="1">
+  		<li>Karkulka</li>
+  			<ul style="list-style-type:disc">
+  				<li>červený čepeček</li>
+  				<li>košík</li>
+  			</ul>
+  		<li>vlk</li>
+  			<ul style="list-style-type:disc">
+  				<li>ostrné zuby</li>
+  				<li>hlad</li>
+  			</ul>
+  		<li>babička</li>
+  			<ul style="list-style-type:disc">
+  				<li>sežrána</li>
+  			</ul>
+  	</ol>
+  <li>Pohádka O šípkové růžence</li>
+  <ol type="A">
+  	<li>Sudičky</li>
+  		<ol type="1">
+  			<li>Miroslava</li>
+  				<ul class="pomlcka">
+  					<li>pozvána</li>
+  					<li>daruje krásu</li>
+  				</ul>
+  			<li>Květoslava</li>
+  				<ul class="pomlcka">
+					<li>pozvána</li>
+  					<li>daruje prince</li>
+  				</ul>
+  			<li>věnceslava</li>
+  				<ul class="pomlcka">
+					<li>pozvána</li>
+  					<li>daruje spánke</li>
+  				</ul>
+  		</ol>
+  	<li>Růženka</li>
+  			<ul style="list-style-type:disc">
+  				<li>Nesmí do věže</li>
+  				<li>Píchne se o trn</li>
+  			</ul>
+  	<li>Princ</li>
+  </ol>
+</ul>
+
+</body>
+</html>
